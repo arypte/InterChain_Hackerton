@@ -1,4 +1,4 @@
-# PROJECT
+# FL-Chain
 
 ![Go Version][go-image]
 ![CosmosSDK Version][sdk-image]
