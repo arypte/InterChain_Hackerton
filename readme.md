@@ -38,7 +38,7 @@ The sequence is as follows:
 B. FlowerFramework (Off-chain)
 
 5. DataProviders that were listening for Events will set up configurations for federated learning once they listen to the event from step 4.
-6.The DataConsumer and DataProviders proceed with learning. The reasons for building our AppChain for data and trust resolution are revealed:
+6. The DataConsumer and DataProviders proceed with learning. The reasons for building our AppChain for data and trust resolution are revealed:
 -> The authenticity of the RawData used for learning is secured by comparing it with the Hash value registered on the Chain.
 -> During learning, DataProviders create a ZK Proof of the learning process using their data and send it to the Chain.
 7. The ZK Verifier on the Chain leaves a record of whether the Proof is Valid/Invalid.
